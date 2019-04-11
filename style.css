@@ -1,0 +1,174 @@
+:root {
+    --main-font: Roboto;
+    --header-font: "Noto Sans";
+    --sub-header-font: Assistant;
+    --secondary-font: Montserrat;
+    --link-font: Abel;
+}
+
+@media print {
+    html {
+        font-size: 11pt;
+    }
+}
+
+body {
+    text-align: center;
+    font-family: var(--main-font);
+}
+.page {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.page header {
+    display: flex;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+    margin: 0;
+    line-height: 1;
+    color: darkblue;
+}
+h1 {
+    margin: 0 0 .1rem -.2rem;
+    font-size: 3rem;
+}
+h2 {
+    margin-bottom: 1rem;
+    font-family: var(--sub-header-font);
+    color: gray;
+    font-size: 1.21rem;
+}
+h3 {
+    font-family: var(--sub-header-font);
+    margin: 3rem 0 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+h4 {
+    color: black;
+}
+h5 {
+    font-family: var(--main-font);
+    font-size: .9rem;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+p {
+    margin: .6rem 0 .35rem;
+}
+p + p {
+    margin-top: 0;
+}
+p:last-child {
+    margin-bottom: 2rem;
+}
+
+article {
+    padding-left: 5rem;
+    position: relative;
+}
+article + article {
+    padding-top: .5rem;
+}
+article + article::before {
+    content: " ";
+    position: absolute;
+    top: -.75rem;
+    left: 5rem;
+    width: calc(100% - 5rem);
+    height: 1px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.bio {
+    border-left: .15rem solid #DDD;
+    padding: .4rem 0 .4rem 1rem;
+    margin-left: 4rem;
+}
+
+.time-period,
+.location {
+    font-family: var(--sub-header-font);
+    color: gray;
+    display: inline-block;
+    margin-top: .3rem
+}
+.location {
+}
+.location::before {
+    content: "·";
+    margin: 0 .6rem 0 .5rem;
+    font-weight: bold;
+}
+
+.links {
+    font-family: var(--link-font);
+}
+
+.column-container {
+    display: flex;
+}
+.column {
+    flex: 1;
+}
+
+.experience li {
+    position: relative;
+}
+.experience .multiple li::before {
+    content: "·";
+    position: absolute;
+    color: #DDDDDD;
+    font-size: 5rem;
+    left: -4.2rem;
+    top: -.4rem;
+    line-height: .4;
+}
+.experience .multiple li::after {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    border-right: 1px solid #DDDDDD;
+    width: 0;
+    left: -3.65rem;
+    top: 1.5rem;
+}
+.experience li:last-child::after {
+    border-right: none;
+}
+
+.logo {
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: -4.6rem;
+    top: .1rem;
+}
+
+.social i {
+    width: 1.1rem;
+    margin-right: 0.4rem;
+    text-align: right;
+}
+
+.skills h3 {
+    margin-bottom: .5rem;
+}
+.skills li span {
+    font-size: .9rem;
+}
+.skills li {
+    margin-bottom: .5rem;
+}

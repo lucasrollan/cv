@@ -1,0 +1,105 @@
+{
+    "basics": {
+        "name": "Lucas Rollan",
+        "label": "Senior Front-end Software Engineer",
+        "email": "lucas.rollan@gmail.com",
+        "summary": "Creative, adaptable and determined to deliver products that provide great value, built with quality and keeping users in mind as top priority.\nBeing a reliable problem solver, striving to be a role model, and leading those around me to create an energetic and positive team culture is my way of putting people first.",
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "lucasrollan",
+                "url": "https://www.linkedin.com/in/lucasrollan"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Medallia",
+            "position": "Senior Front End Software Engineer",
+            "website": "https://www.medallia.com",
+            "startDate": "2017-10-13",
+            "endDate": null,
+            "highlights": [
+                "Leading an engineering team in the transformation of an existing product into an extensible platform built with React and Redux that will allow the company to further scale and create innovative products.",
+                "Onboarded a new engineering team comprised of six new members, leading the team in the take-over of a mission critical project built in Angular, migrating it to React while giving a new direction to the product. "
+            ]
+        },
+        {
+            "company": "Medallia",
+            "position": "Front End Software Engineer",
+            "website": "https://www.medallia.com",
+            "startDate": "2015-05-18",
+            "endDate": "2017-10-12",
+            "highlights": [
+                "Succesfully developed a top quality UI component library built in React that served as a base to develop a critical product platform with consistency and efficiency.",
+                "Implemented and delivered a modern self-service configuration platform with React and Redux that proved crucial for enabling the company and product to scale."
+            ]
+        },
+        {
+            "company": "Globant",
+            "position": "Web UI Developer",
+            "website": "https://www.globant.com",
+            "startDate": "2013-02-??",
+            "endDate": "2015-05-15",
+            "highlights": [
+                "As staff augmentation engineer for one of the biggest US airlines, some of my contributions include developing a modern e-commerce site as part of a mayor rebranding, and building a renovated user-facing account management interface.",
+                "Received Servant's Heart Award as recognition from my peers for team work and collaboration."
+            ]
+        }
+    ],
+    "volunteer": null,
+    "education": [
+        {
+            "institution": "Universidad de Palermo",
+            "area": "Bachelor's degree in computer science",
+            "studyType": "Bachelor",
+            "startDate": "2018-01-01",
+            "endDate": "2018-01-01"
+        },
+        {
+            "institution": "Academia de Computación e Idiomas",
+            "area": "Graphic Design",
+            "studyType": "Course",
+            "startDate": "2010-01-01",
+            "endDate": "2010-01-01"
+        },
+        {
+            "institution": "Instituto Nuevo Rumbo",
+            "area": "Computer repair and installation of networks and IP applications technician",
+            "studyType": "Course",
+            "startDate": "2010-01-01",
+            "endDate": "2010-01-01"
+        }
+    ],
+    "awards": null,
+    "publications": null,
+    "skills": [
+        {
+            "name": "Soft skills",
+            "keywords": [
+                "Team Leadership",
+                "Front-end engineering",
+                "System design and architecture",
+                "Continuous Integration",
+                "Continuous Delivery",
+                "Automated testing",
+                "Agile methodologies",
+                "Scrum"
+            ]
+        },
+        {
+            "name": "Technical skills",
+            "keywords": [
+                "JavaScript",
+                "React.js",
+                "Redux",
+                "Styled components",
+                "HTML5",
+                "CSS3",
+                "ES6+",
+                "Git"
+            ]
+        }
+    ]
+}
+
