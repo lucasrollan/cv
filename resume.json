@@ -14,11 +14,22 @@
     },
     "work": [
         {
+            "company": "Booking.com",
+            "position": "Front End Engineer",
+            "website": "https://www.booking.com",
+            "startDate": "2019-07",
+            "endDate": null,
+            "highlights": [
+                "Developing and scaling a client-facing messaging product that is dramatically improving customer service by simplifying and unifying communication channels. The project is built with React and currently being migrated to a micro-frontends architecture.",
+                "Created self-service flows that helped reduce the impact of the sudden increase in customer requests as a result of COVID-19."
+            ]
+        },
+        {
             "company": "Medallia",
             "position": "Senior Front End Software Engineer",
             "website": "https://www.medallia.com",
-            "startDate": "2017-10-13",
-            "endDate": null,
+            "startDate": "2017-10",
+            "endDate": "2019-07",
             "highlights": [
                 "Leading an engineering team in the transformation of an existing product into an extensible platform built with React and Redux that will allow the company to further scale and create innovative products.",
                 "Onboarded a new engineering team comprised of six new members, leading the team in the take-over of a mission critical project built in Angular, migrating it to React while giving a new direction to the product. "
@@ -28,8 +39,8 @@
             "company": "Medallia",
             "position": "Front End Software Engineer",
             "website": "https://www.medallia.com",
-            "startDate": "2015-05-18",
-            "endDate": "2017-10-12",
+            "startDate": "2015-05",
+            "endDate": "2017-10",
             "highlights": [
                 "Succesfully developed a top quality UI component library built in React that served as a base to develop a critical product platform with consistency and efficiency.",
                 "Implemented and delivered a modern self-service configuration platform with React and Redux that proved crucial for enabling the company and product to scale."
@@ -39,8 +50,8 @@
             "company": "Globant",
             "position": "Web UI Developer",
             "website": "https://www.globant.com",
-            "startDate": "2013-02-??",
-            "endDate": "2015-05-15",
+            "startDate": "2013-02",
+            "endDate": "2015-05",
             "highlights": [
                 "As staff augmentation engineer for one of the biggest US airlines, some of my contributions include developing a modern e-commerce site as part of a mayor rebranding, and building a renovated user-facing account management interface.",
                 "Received Servant's Heart Award as recognition from my peers for team work and collaboration."
